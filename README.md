@@ -13,7 +13,7 @@ npm install -g json-server
 Uma vez instalado o json-server, basta rodar o comando a seguir, dentro da pasta **_/server_**:
 
 ```
-json-server --watch server/db.json --port 5000
+json-server --watch server/db.json
 ```
 
 ### Front-end

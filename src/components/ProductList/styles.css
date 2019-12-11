@@ -1,0 +1,7 @@
+.product-list-container {
+  width: 90%;
+  display: flex;
+  margin: auto auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

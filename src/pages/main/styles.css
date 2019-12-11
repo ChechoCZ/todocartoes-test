@@ -1,0 +1,6 @@
+.main-container {
+  width: 76.4%;
+  display: flex;
+  margin: auto auto;
+  flex-direction: column;
+}

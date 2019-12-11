@@ -1,0 +1,44 @@
+.list-card {
+  width: 90%;
+  display: flex;
+  min-height: 350px;
+  margin: auto auto;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px #00000033; 
+}
+
+.avatar img {
+  width: 150px;
+  padding-top: 20px;
+  border-radius: 50%;
+}
+
+.list-card p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.list-card span {
+  margin: 10px;
+}
+
+.list-title {
+  margin: 15px;
+  font-size: 26px;
+  color: #5790dd;
+  font-weight: bold;
+}
+
+.btn-list {
+  height: 40px;
+  width: 300px;
+  margin: 15px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #d457a5;
+}

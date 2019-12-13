@@ -1,0 +1,38 @@
+.filters-container {
+  width: 100%;
+}
+
+.search {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-form input {
+  width: 77%;
+  border: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.search p {
+  width: 90px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.search-btn {
+  display: none;
+}
+
+.options {
+  display: flex;
+}
+
+::placeholder {
+  color: #cfcfcfcc;
+}

@@ -3,26 +3,26 @@
   display: flex;
   margin: auto auto;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 
 .product-list-content {
   width: 100%;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btn-back {
-  width: 200px;
-  height: 40px;
   margin: 20px 0;
   color: #8c8c8c;
-  font-weight: bold;
-  text-align: center;
   align-self: center;
-  border-radius: 5px;
-  text-transform: uppercase;
+  border: 1px solid #00000033;
+}
+
+.btn-filter {
+  color: #fff;
+  margin: 20px 0 10px 0;
+  align-self: flex-end;
+  background-color: #5790dd;
   border: 1px solid #00000033;
 }

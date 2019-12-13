@@ -13,3 +13,13 @@ body {
 .clickable {
   cursor: pointer;
 }
+
+.btn {
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+}

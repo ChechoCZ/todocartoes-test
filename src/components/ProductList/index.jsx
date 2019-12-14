@@ -1,18 +1,17 @@
 import React, { Fragment } from 'react';
 
+import Filters from '../Filters';
 import { ProductItem } from '../ProductItem';
-import { Filters } from '../../components/Filters';
 
 import './styles.css';
 
-export const ProductList = ({ products, showFilters, filterProducts, deleteProduct }) => (
+export const ProductList = ({ products, showFilters, filterProducts, filterProductsRequest, deleteProduct }) => (
   <Fragment>
     <div className="product-list-container">
 
       <button className="btn btn-filter" onClick={filterProducts}>Mostrar Filtros</button>
 
-      {showFilters ? <Filters /> : null}
-
+      {showFilters ? <Filters filterProducts={filterProductsRequest} /> : null}
 
       <div className="product-list-content">
         { products ? products.map(product => <ProductItem key={product.id} product={product} deleteProduct={() => deleteProduct(product.id)} />) : null}

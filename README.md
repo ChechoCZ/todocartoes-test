@@ -2,8 +2,6 @@
 
 ### Back-end
 
-No back-end decidi utilizar o [json-server](https://github.com/typicode/json-server), já que o foco do teste está orientado ao front-end. 
-
 Para rodar o back-end, deve-se ter instalado o json-server de modo global:
 
 ```
@@ -18,7 +16,16 @@ json-server --watch server/db.json
 
 ### Front-end
 
-Projeto criado com [Create React App](https://github.com/facebook/create-react-app).
+Fazer o *clone* deste projeto, entrar na pasta do projeto e rodar o comando:
 
-Criando estrutura inicial do projeto.
+```
+yarn
+```
 
+As dependências do projeto serão instaladas. Após isso, rodar o comando:
+
+```
+yarn start
+```
+
+A aplicação rodará na url **http://localhost:3000**

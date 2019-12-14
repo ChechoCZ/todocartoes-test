@@ -19,7 +19,7 @@ class Main extends Component {
   }
 
   render() {
-    const { filterProducts, deleteProductRequest } = this.props;
+    const { filterProducts, filterProductsRequest, deleteProductRequest } = this.props;
     const { list_of_products, showFilters } = this.props;
     const { name, image, products } = list_of_products;
 
@@ -49,7 +49,8 @@ class Main extends Component {
           products={products} 
           showFilters={showFilters}
           filterProducts={() => filterProducts()} 
-          deleteProduct={(id) => deleteProductRequest(id)}/>
+          deleteProduct={(id) => deleteProductRequest(id)}
+          filterProductsRequest={(filter) => filterProductsRequest(filter)} />
       </div>
     );
   }

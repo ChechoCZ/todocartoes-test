@@ -1,5 +1,7 @@
 # Test Todo cartões
 
+Fazer o *clone* deste projeto e entrar na pasta.
+
 ### Back-end
 Para rodar o back-end, deve-se ter instalado o json-server de modo global:
 ```
@@ -12,7 +14,6 @@ json-server --watch server/db.json
 O servidor rodará na url **http://localhost:5000**
 
 ### Front-end
-Fazer o *clone* deste projeto, entrar na pasta do projeto e rodar o comando:
 ```
 yarn
 ```

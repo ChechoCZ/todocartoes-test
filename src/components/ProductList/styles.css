@@ -13,16 +13,24 @@
 }
 
 .btn-back {
-  margin: 20px 0;
+  width: 200px;
+  margin: 10px 0;
   color: #8c8c8c;
   align-self: center;
   border: 1px solid #00000033;
 }
 
 .btn-filter {
+  width: 200px;
   color: #fff;
   margin: 20px 0 10px 0;
   align-self: flex-end;
   background-color: #5790dd;
   border: 1px solid #00000033;
+}
+
+@media (min-width: 320px) and (max-width: 750px) {
+  .btn-filter, .btn-back {
+    width: 100%;
+  }
 }

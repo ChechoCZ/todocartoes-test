@@ -17,16 +17,21 @@ class Main extends Component {
 
     loadProductsRequest();
   }
-
+  
   render() {
-    const { filterProducts, filterProductsRequest, deleteProductRequest } = this.props;
-    const { list_of_products, showFilters } = this.props;
-    const { name, image, products } = list_of_products;
+    const { 
+      filterProducts, 
+      filterProductsRequest, 
+      deleteProductRequest, 
+      showFilters } = this.props;
 
+    const { list, products } = this.props;
+    const { name, image } = list;
+    
     let quantity;
     let price = 0;    
 
-    if (products) {
+    if (products.length > 0) {
       quantity = products.length;
 
       const products_price = [];
@@ -44,7 +49,8 @@ class Main extends Component {
           name={name} 
           image={image} 
           quantity={quantity} 
-          price={price} />
+          price={price} 
+          />
         <ProductList 
           products={products} 
           showFilters={showFilters}
@@ -57,7 +63,8 @@ class Main extends Component {
 }
 
 const mapStateToProps = state => ({
-  list_of_products: state.products.data,
+  list: state.products.list,
+  products: state.products.products,
   showFilters: state.products.showFilters
 });
 

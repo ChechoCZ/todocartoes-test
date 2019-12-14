@@ -17,7 +17,7 @@ export const ProductItem = ({ product, deleteProduct }) => (
       </div>
       <div className="flip-card-back">
         <div className="product-detail-container-back">
-          <button className="btn" onClick={deleteProduct}>Apagar</button>
+          <button className="btn-delete" onClick={deleteProduct}>Apagar</button>
         </div>
       </div>
     </div>

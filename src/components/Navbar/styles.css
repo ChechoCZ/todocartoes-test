@@ -33,3 +33,9 @@
 .active {
   color: #000000;
 }
+
+@media (min-width: 320px) and (max-width: 900px) {
+  .stage p {
+    display: none;
+  }
+}

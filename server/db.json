@@ -1,25 +1,109 @@
 {
-  "lists": {
-    "id": 1,
-    "name": "Minha Lista de Produtos",
-    "image": "http://dummyimage.com/600x600.jpg",
-    "products": [
-      {"id":1,"price":64.33,"name":"Wine - Vidal Icewine Magnotta","image":"http://dummyimage.com/600x600.jpg/5fa2dd/ffffff"},
-      {"id":2,"price":16.03,"name":"Daves Island Stinger","image":"http://dummyimage.com/600x600.jpg/cc0000/ffffff"},
-      {"id":3,"price":56.09,"name":"Bread - Raisin Walnut Pull","image":"http://dummyimage.com/600x600.jpg/dddddd/000000"},
-      {"id":4,"price":51.23,"name":"Bar Mix - Pina Colada, 355 Ml","image":"http://dummyimage.com/600x600.jpg/5fa2dd/ffffff"},
-      {"id":5,"price":48.09,"name":"Bread Base - Toscano","image":"http://dummyimage.com/600x600.jpg/cc0000/ffffff"},
-      {"id":6,"price":19.38,"name":"Capon - Whole","image":"http://dummyimage.com/600x600.jpg/dddddd/000000"},
-      {"id":7,"price":28.72,"name":"Cookie Dough - Double","image":"http://dummyimage.com/600x600.jpg/dddddd/000000"},
-      {"id":8,"price":52.44,"name":"Beef - Short Ribs","image":"http://dummyimage.com/600x600.jpg/cc0000/ffffff"},
-      {"id":9,"price":73.27,"name":"Bread - Assorted Rolls","image":"http://dummyimage.com/600x600.jpg/5fa2dd/ffffff"},
-      {"id":10,"price":24.19,"name":"Jam - Apricot","image":"http://dummyimage.com/600x600.jpg/cc0000/ffffff"},
-      {"id":11,"price":72.47,"name":"Wine - Pinot Noir Pond Haddock","image":"http://dummyimage.com/600x600.jpg/dddddd/000000"},
-      {"id":12,"price":43.88,"name":"V8 - Berry Blend","image":"http://dummyimage.com/600x600.jpg/5fa2dd/ffffff"},
-      {"id":13,"price":16.97,"name":"Wine - Sherry Dry Sack, William","image":"http://dummyimage.com/600x600.jpg/cc0000/ffffff"},
-      {"id":14,"price":23.42,"name":"Wine - Zonnebloem Pinotage","image":"http://dummyimage.com/600x600.jpg/dddddd/000000"},
-      {"id":15,"price":25.97,"name":"Wine - Vineland Estate Semi - Dry","image":"http://dummyimage.com/600x600.jpg/cc0000/ffffff"},
-      {"id":16,"price":42.56,"name":"Coconut - Shredded, Unsweet","image":"http://dummyimage.com/600x600.jpg/5fa2dd/ffffff"}
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "price": 64.33,
+      "name": "Wine - Vidal Icewine Magnotta",
+      "image": "http://dummyimage.com/600x600.jpg/5fa2dd/ffffff",
+      "listId": 1
+    },
+    {
+      "id": 2,
+      "price": 16.03,
+      "name": "Daves Island Stinger",
+      "image": "http://dummyimage.com/600x600.jpg/cc0000/ffffff",
+      "listId": 1
+    },
+    {
+      "id": 3,
+      "price": 56.09,
+      "name": "Bread - Raisin Walnut Pull",
+      "image": "http://dummyimage.com/600x600.jpg/dddddd/000000",
+      "listId": 1
+    },
+    {
+      "id": 4,
+      "price": 51.23,
+      "name": "Bar Mix - Pina Colada, 355 Ml",
+      "image": "http://dummyimage.com/600x600.jpg/5fa2dd/ffffff",
+      "listId": 1
+    },
+    {
+      "id": 5,
+      "price": 48.09,
+      "name": "Bread Base - Toscano",
+      "image": "http://dummyimage.com/600x600.jpg/cc0000/ffffff",
+      "listId": 1
+    },
+    {
+      "id": 6,
+      "price": 19.38,
+      "name": "Capon - Whole",
+      "image": "http://dummyimage.com/600x600.jpg/dddddd/000000",
+      "listId": 1
+    },
+    {
+      "id": 7,
+      "price": 28.72,
+      "name": "Cookie Dough - Double",
+      "image": "http://dummyimage.com/600x600.jpg/dddddd/000000",
+      "listId": 1
+    },
+    {
+      "id": 8,
+      "price": 52.44,
+      "name": "Beef - Short Ribs",
+      "image": "http://dummyimage.com/600x600.jpg/cc0000/ffffff",
+      "listId": 1
+    },
+    {
+      "id": 9,
+      "price": 73.27,
+      "name": "Bread - Assorted Rolls",
+      "image": "http://dummyimage.com/600x600.jpg/5fa2dd/ffffff",
+      "listId": 1
+    },
+    {
+      "id": 10,
+      "price": 24.19,
+      "name": "Jam - Apricot",
+      "image": "http://dummyimage.com/600x600.jpg/cc0000/ffffff",
+      "listId": 1
+    },
+    {
+      "id": 11,
+      "price": 72.47,
+      "name": "Wine - Pinot Noir Pond Haddock",
+      "image": "http://dummyimage.com/600x600.jpg/dddddd/000000",
+      "listId": 1
+    },
+    {
+      "id": 12,
+      "price": 43.88,
+      "name": "V8 - Berry Blend",
+      "image": "http://dummyimage.com/600x600.jpg/5fa2dd/ffffff",
+      "listId": 1
+    },
+    {
+      "id": 13,
+      "price": 16.97,
+      "name": "Wine - Sherry Dry Sack, William",
+      "image": "http://dummyimage.com/600x600.jpg/cc0000/ffffff",
+      "listId": 1
+    },
+    {
+      "id": 14,
+      "price": 23.42,
+      "name": "Wine - Zonnebloem Pinotage",
+      "image": "http://dummyimage.com/600x600.jpg/dddddd/000000",
+      "listId": 1
+    }
+  ],
+  "lists": [
+    {
+      "id": 1,
+      "name": "Minha Lista de Produtos",
+      "image": "http://dummyimage.com/600x600.jpg"
+    }
+  ]
 }

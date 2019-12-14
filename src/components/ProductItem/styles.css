@@ -14,6 +14,10 @@
   font-size: 14px;
 }
 
+.product-detail-container-back {
+  width: 100%;
+}
+
 .product-detail-info {
   padding: 5px;
   display: flex;
@@ -31,9 +35,9 @@
 }
 
 .flip-card {
-  width: 23%;
-  margin: 5px;
-  height: 320px;
+  width: 22%;
+  margin: 10px;
+  height: 300px;
   perspective: 1000px;
   background-color: transparent;
 }
@@ -67,4 +71,26 @@
   align-items: center;
   justify-content: center;
   transform: rotateY(180deg);
+}
+
+.btn-delete { 
+  width: 80%;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 700px) and (max-width: 972px) {
+  .flip-card {
+    width: 27%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .flip-card {
+    width: 45%;
+  }
 }

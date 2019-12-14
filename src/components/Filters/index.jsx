@@ -23,9 +23,9 @@ export default class Filters extends Component {
             onChange={this.filterProducts.bind(this)} />
         </div>
         <div className="filter">
-          <input type="radio" name="price_filter" />Menos de R25
-          <input type="radio" name="price_filter" />Entre R$25 e R$50 
-          <input type="radio" name="price_filter" />Mais de R$50
+          <div><input type="radio" name="price_filter" value="1" />Menos de R50</div>
+          <div><input type="radio" name="price_filter" value="2" />Entre R$25 e R$50</div>
+          <div><input type="radio" name="price_filter" value="3" />Mais de R$50</div>
         </div>
       </div>
     );
